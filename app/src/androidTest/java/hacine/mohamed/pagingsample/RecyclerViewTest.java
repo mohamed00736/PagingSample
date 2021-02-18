@@ -41,11 +41,11 @@ public class RecyclerViewTest {
     public  void recyclerTest(){
 
 
-       // Espresso.onView(withId(R.id.recyclerview)).perform(RecyclerViewActions.actionOnItemAtPosition(6,click()));
+     Espresso.onView(withId(R.id.recyclerview)).perform(RecyclerViewActions.actionOnItemAtPosition(6,click()));
 
-        String itemval = "boy";
-
-        Espresso.onView(withText(itemval)).check(matches(isDisplayed()));
+//        String itemval = "boy";
+//
+//        Espresso.onView(withText(itemval)).check(matches(isDisplayed()));
 
 
 
