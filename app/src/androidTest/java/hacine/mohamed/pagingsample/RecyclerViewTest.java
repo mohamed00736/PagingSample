@@ -38,7 +38,7 @@ public class RecyclerViewTest {
 
 
     @Test
-    public  void recyclerTest(){
+    public  void recyclerTestclick(){
 
 
      Espresso.onView(withId(R.id.recyclerview)).perform(RecyclerViewActions.actionOnItemAtPosition(6,click()));
